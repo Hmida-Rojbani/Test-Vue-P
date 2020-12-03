@@ -6,7 +6,7 @@ label {
         margin: 5px;
         text-align: left;
     }
-    input[type=text], input[type=password], input[type=date], select {
+    input[type=text], input[type=password], input[type=date] , input[type=email], select {
         display: inline-block;
         width: 200px;
     }

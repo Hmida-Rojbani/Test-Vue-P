@@ -24,7 +24,7 @@ public class User {
 	}
 	
 	public String getBirthDate() {
-		return birthDate.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+		return birthDate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 	}
 
 }
